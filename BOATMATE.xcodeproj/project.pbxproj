@@ -16,6 +16,7 @@
 		DE8CFBAD29D2B22100C83DAB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CFBAC29D2B22100C83DAB /* Color.swift */; };
 		DE8CFBB129D2B3FF00C83DAB /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE8CFBAF29D2B3FF00C83DAB /* Pretendard-Bold.otf */; };
 		DE8CFBB229D2B3FF00C83DAB /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE8CFBB029D2B3FF00C83DAB /* Pretendard-Medium.otf */; };
+		DE8CFBB429D2B4A800C83DAB /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CFBB329D2B4A800C83DAB /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DE8CFBAC29D2B22100C83DAB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DE8CFBAF29D2B3FF00C83DAB /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		DE8CFBB029D2B3FF00C83DAB /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		DE8CFBB329D2B4A800C83DAB /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		DE8CFB9529D2AFEF00C83DAB /* BOATMATE */ = {
 			isa = PBXGroup;
 			children = (
+				DE8CFBB529D2B7DB00C83DAB /* Utility */,
 				DE8CFBAB29D2B20900C83DAB /* Resources */,
 				DE8CFBAA29D2B1FE00C83DAB /* Constants */,
 				DE8CFB9629D2AFEF00C83DAB /* AppDelegate.swift */,
@@ -79,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DE8CFBAC29D2B22100C83DAB /* Color.swift */,
+				DE8CFBB329D2B4A800C83DAB /* Font.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -98,6 +102,13 @@
 				DE8CFBB029D2B3FF00C83DAB /* Pretendard-Medium.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DE8CFBB529D2B7DB00C83DAB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 			files = (
 				DE8CFB9B29D2AFEF00C83DAB /* ViewController.swift in Sources */,
 				DE8CFBAD29D2B22100C83DAB /* Color.swift in Sources */,
+				DE8CFBB429D2B4A800C83DAB /* Font.swift in Sources */,
 				DE8CFB9729D2AFEF00C83DAB /* AppDelegate.swift in Sources */,
 				DE8CFB9929D2AFEF00C83DAB /* SceneDelegate.swift in Sources */,
 			);
