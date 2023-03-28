@@ -13,7 +13,9 @@ enum Color {
     static let gray3 = UIColor(red: 0.851, green: 0.851, blue: 0.851, alpha: 1)
     static let gray4 = UIColor(red: 0.592, green: 0.592, blue: 0.592, alpha: 1)
     static let gray5 = UIColor(red: 0.302, green: 0.302, blue: 0.302, alpha: 1)
-    static let gray6 = UIColor(red: 0.149, green: 0.149, blue: 0.149, alpha: 1)
+    
+    static let black = UIColor(red: 0.149, green: 0.149, blue: 0.149, alpha: 1)
+    static let white = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
     
     static let bgreen = UIColor(red: 0.404, green: 0.835, blue: 0.71, alpha: 1)
     static let yellow = UIColor(red: 1, green: 0.788, blue: 0.322, alpha: 1)
