@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE3F32C529D2BC6100373378 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F32C429D2BC6100373378 /* Button.swift */; };
 		DE3F32C829D2C18B00373378 /* SetColor+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F32C729D2C18B00373378 /* SetColor+UIButton.swift */; };
+		DE3F32CB29D42E5B00373378 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F32CA29D42E5B00373378 /* LoginViewController.swift */; };
+		DE3F32CE29D42E9100373378 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F32CD29D42E9100373378 /* BaseViewController.swift */; };
 		DE8CFB9729D2AFEF00C83DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CFB9629D2AFEF00C83DAB /* AppDelegate.swift */; };
 		DE8CFB9929D2AFEF00C83DAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CFB9829D2AFEF00C83DAB /* SceneDelegate.swift */; };
 		DE8CFB9B29D2AFEF00C83DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CFB9A29D2AFEF00C83DAB /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DE3F32C429D2BC6100373378 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		DE3F32C729D2C18B00373378 /* SetColor+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SetColor+UIButton.swift"; path = "BOATMATE/Utility/SetColor+UIButton.swift"; sourceTree = SOURCE_ROOT; };
+		DE3F32CA29D42E5B00373378 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DE3F32CD29D42E9100373378 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DE8CFB9329D2AFEF00C83DAB /* BOATMATE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOATMATE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8CFB9629D2AFEF00C83DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8CFB9829D2AFEF00C83DAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,22 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		DE3F32C929D42E3B00373378 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DE3F32CA29D42E5B00373378 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DE3F32CC29D42E8A00373378 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DE3F32CD29D42E9100373378 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		DE8CFB8A29D2AFEF00C83DAB = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +99,7 @@
 				DE8CFBAB29D2B20900C83DAB /* Resources */,
 				DE8CFBAA29D2B1FE00C83DAB /* Constants */,
 				DE8CFBB529D2B7DB00C83DAB /* Utility */,
+				DE3F32C929D42E3B00373378 /* Login */,
 				DE8CFB9629D2AFEF00C83DAB /* AppDelegate.swift */,
 				DE8CFB9829D2AFEF00C83DAB /* SceneDelegate.swift */,
 				DE8CFB9A29D2AFEF00C83DAB /* ViewController.swift */,
@@ -119,6 +140,7 @@
 		DE8CFBB529D2B7DB00C83DAB /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				DE3F32CC29D42E8A00373378 /* Base */,
 				DE3F32C429D2BC6100373378 /* Button.swift */,
 				DE3F32C629D2C17800373378 /* Extensions */,
 			);
@@ -202,6 +224,8 @@
 				DE3F32C529D2BC6100373378 /* Button.swift in Sources */,
 				DE8CFBAD29D2B22100C83DAB /* Color.swift in Sources */,
 				DE8CFBB429D2B4A800C83DAB /* Font.swift in Sources */,
+				DE3F32CB29D42E5B00373378 /* LoginViewController.swift in Sources */,
+				DE3F32CE29D42E9100373378 /* BaseViewController.swift in Sources */,
 				DE8CFB9729D2AFEF00C83DAB /* AppDelegate.swift in Sources */,
 				DE3F32C829D2C18B00373378 /* SetColor+UIButton.swift in Sources */,
 				DE8CFB9929D2AFEF00C83DAB /* SceneDelegate.swift in Sources */,

@@ -12,17 +12,19 @@ final class FillButton: UIButton {
 
     @IBInspectable var titleText: String? {
         didSet {
+            setup()
             self.setTitle(titleText, for: .normal)
+//            self.setTitleColor(Color.white, for: .normal)
+//            self.setTitleColor(Color.gray4, for: .disabled)
         }
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setup()
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
     
     override func layoutSubviews() {
@@ -43,17 +45,18 @@ final class OutlineButton: UIButton {
     
     @IBInspectable var titleText: String? {
         didSet {
+            setup()
             self.setTitle(titleText, for: .normal)
+            self.setTitleColor(Color.black, for: .normal)
         }
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setup()
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
     
     override func layoutSubviews() {
@@ -64,7 +67,6 @@ final class OutlineButton: UIButton {
         self.layer.cornerRadius = 13.0
         self.layer.borderWidth = 1.0
         self.setColor(backgroundColor: Color.white, borderColor: Color.black, textColor: Color.white, for: .normal)
-        self.setColor(backgroundColor: Color.white, borderColor: Color.gray4, textColor: Color.gray4, for: .disabled)
     }
     
 }
